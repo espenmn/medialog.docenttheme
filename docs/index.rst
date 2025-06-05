@@ -1,0 +1,5 @@
+====================
+medialog.docenttheme
+====================
+
+User documentation
