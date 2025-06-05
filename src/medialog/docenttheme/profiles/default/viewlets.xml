@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object>
+    <order manager="plone.abovecontent" skinname="Plone Default">
+        <viewlet name="tool-bar-viewlet"/>
+        <viewlet name="plone.path_bar"/>
+        <viewlet name="header-viewlet"/>
+        <viewlet name="plone.lockinfo"/>
+    </order>
+</object>

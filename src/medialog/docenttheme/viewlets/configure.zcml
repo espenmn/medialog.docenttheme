@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="medialog.docenttheme">
+
+ <!-- -*- extra stuff goes here -*- -->
+
+  <browser:viewlet
+     name="header-viewlet"
+     for="plone.app.contenttypes.interfaces.IDocument"
+     manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle"
+     layer="medialog.docenttheme.interfaces.IMedialogDocentthemeLayer"
+     class=".header_viewlet.HeaderViewlet"
+     template="header-viewlet.pt"
+     permission="zope2.View"
+     />
+
+
+</configure>
