@@ -9,7 +9,7 @@
     "nodemon": "^2.0.19",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.16",
-    "postcss-cli": "^9.0.1",
+    "postcss-cli": "^9.1.0",
     "sass": "^1.54.7",
     "stylelint-config-twbs-bootstrap": "^5.0.0",
     "tinymce": "^5.10.2"
@@ -24,6 +24,10 @@
     "css-lint": "stylelint \"styles/**/*.scss\" --cache --cache-location .cache/.stylelintcache"
   },
   "dependencies": {
-    "@plone/plonetheme-barceloneta-base": "^3.0.0b6"
+    "@fontsource/open-sans": "^5.2.5",
+    "@fontsource/roboto": "^5.2.5",
+    "@plone/plonetheme-barceloneta-base": "^3.2.4",
+    "bootstrap": "^5.3.6",
+    "roboto": "^0.8.2"
   }
 }
