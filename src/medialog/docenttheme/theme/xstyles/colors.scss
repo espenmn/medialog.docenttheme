@@ -50,7 +50,7 @@ $state-internally-published-color:  #883dfa!default; // is intranet
 
 // Plone
 // Bootstrap $primary color is Plone blue
-$primary:                            #428bca!default; //dutchtheme blue
+$primary:                            red!default; //dutchtheme red
 
 $plone-link-color:                  $primary !default;
 $plone-link-color-on-dark:          #16a1e3!default; //plone blue
@@ -83,4 +83,6 @@ $state-colors: (
   "internal":                       $state-internal-color,
   "internally-published":           $state-internally-published-color,
 ) !default;
+
+ 
 
