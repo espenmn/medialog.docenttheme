@@ -5,6 +5,11 @@
     margin-left: -30px !important;
 }
 
+#content #fieldset {background: white !important}
+
+#viewlet-below-content #fieldset,
+#viewlet-below-content {background: white; padding: 0; margin: 0}
+
 .imagediv {
     background-color: #fff;
     text-align: center;

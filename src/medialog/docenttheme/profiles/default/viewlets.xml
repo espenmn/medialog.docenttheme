@@ -9,6 +9,13 @@
   <viewlet name="plone.lockinfo"/>
  </order> 
 
+  <hidden manager="plone.mainnavigation" skinname="Plone Default">
+  <viewlet name="plone.global_sections"/>
+ </hidden>
+   <hidden manager="plone.mainnavigation" skinname="">
+  <viewlet name="plone.global_sections"/>
+ </hidden>
+
  <hidden manager="plone.portalheader" skinname="">
   <viewlet name="medialog.dutchmantheme.menuviewlet"/>
   <viewlet name="medialog.dutchtheme.languageselector"/>
@@ -17,7 +24,7 @@
   <viewlet name="medialog.dutchmantheme.aboveallportlets"/>
  </hidden>
  
- <hidden manager="plone.portalheader" skinname="Plone Default">
+ <hidden manager="plone.portalheader" skinname="">
   <viewlet name="plone.membertools"/>
   <viewlet name="plone.logo"/>
   <viewlet name="plone.searchbox"/>

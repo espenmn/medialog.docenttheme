@@ -16,5 +16,6 @@
      permission="zope2.View"
      />
 
+<!-- plone.portalheader -->
 
 </configure>
