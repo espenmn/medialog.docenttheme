@@ -45,17 +45,17 @@ $plone-body-bg:             $body-bg;
 $plone-footer-bg:            			#AAA;
 $plone-text-color:           				 #000;
 $plone-link-hover-color:     				 darken($plone-link-color, 75%);
-// $headings-color:                  darken($plone-link-color, 15%);  // virker
-$headings-color:              #333;  // virker
-$font-size-base:          15px; // virker
+$headings-color:                  darken($plone-link-color, 15%);  // virker
+$font-size-base:          14px; // virker
 $plone-font-size-base:     $font-size-base; 
 
 //*// TYPOGRAPHY //
-$plone-font-family-sans-serif:  "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; // Roboto seems Plone's DIN
+$plone-font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif; // Roboto seems Plone's DIN
 $plone-font-family-condensed:   "Roboto Condensed", "Arial Narrow", sans-serif; //just on toolbar
 $plone-font-family-serif:       "Menlo", "Bitter", "Times New Roman", Times, serif;
 $plone-font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
-$plone-font-family-base:        $plone-font-family-sans-serif;
+$plone-font-family-base:        $plone-font-family-serif;
+
 
 //*// TYPOGRAPHY
 $font-family-sans-serif:  $plone-font-family-sans-serif;
@@ -66,7 +66,7 @@ $font-family-base:        $plone-font-family-sans-serif;
 $font-size-large:         ceil(($plone-font-size-base * 1.25));
 $font-size-small:         ceil(($plone-font-size-base * 0.85));
 
-$font-size-h1:            floor(($plone-font-size-base * 2.8));
+// $font-size-h1:            floor(($plone-font-size-base * 2.8));
 // $font-size-h2:            floor(($plone-font-size-base * 1.25));
 // $font-size-h3:            ceil(($plone-font-size-base * 1.8));
 // $font-size-h4:            ceil(($plone-font-size-base * 1.35));
@@ -107,6 +107,7 @@ $font-weight-light:         200 !default;
 // $plone-caret-width-large:         5px;
 
 
+
 //*// TABLES
 $plone-table-cell-padding:            8px;
 $plone-table-condensed-cell-padding:  5px;
@@ -115,6 +116,7 @@ $plone-table-bg-accent:               lighten($plone-link-color, 40%);
 $plone-table-bg-hover:                #f0f0f0;
 $plone-table-bg-active:               $plone-table-bg-hover;
 $plone-table-border-color:            $plone-link-color;
+
 
 
 //*// STATES
@@ -173,7 +175,7 @@ $plone-container-extra-large:         $plone-container-xl;
 
 
 //*// Buttons
-$plone-btn-standalone-color:          		red;
+// $plone-btn-standalone-color:          		red;
 // $plone-btn-standalone-bg:             	#20a7de;
 // $plone-btn-standalone-border:          	darken($plone-btn-standalone-bg, 5%);
 // $plone-btn-context-color:              		#fff;
@@ -184,8 +186,7 @@ $plone-btn-standalone-color:          		red;
 // $btn-standalone-color:          		red;
 //
 
-$btn-primary-bg :                  red; 
-
+// $btn-primary-bg :                  $plone-link-color; 
 // // $plone-btn-primary-bg :           red; 
 // $bs-btn-primary-bg :                  $plone-link-color; 
 // $btn-primary-background :                  $plone-link-color; 
@@ -422,15 +423,15 @@ $line-height-base:        1.5;
 
 $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
-
+$headings-font-family:    'Encode Sans';
+$headings-font-weight:    $font-weight-light;
 
 $font-weight-light:		200;
 $font-weight-regular:		400;
 $font-weight-medium:		400;
 $font-weight-bold:		700;
 
-// $headings-font-family:    'Roboto'; 
-$headings-font-weight:    $font-weight-bold;
+
 
 $padding-base-vertical:     6px;
 $padding-base-horizontal:   12px;
@@ -529,7 +530,7 @@ $input-bg-disabled:              $table-border-color;
 $input-color:                    $gray;
 $input-border:                   #20a7de;
 $input-border-radius:            $border-radius-base;
-// $input-border-focus:          $portlet-list-bullet;
+// $input-border-focus:             $portlet-list-bullet;
 $input-color-placeholder:        $gray-light;
 $input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 2);
 $input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2);
@@ -636,6 +637,7 @@ $blockquote-small-color:      $gray-light;
 $blockquote-font-size:        ($font-size-base * 1.25);
 $blockquote-border-color:     $gray-lighter;
 $page-header-border-color:    #FFF;
+
 
 $hr-border:                   $link-color;
 $component-offset-horizontal: 180px;
