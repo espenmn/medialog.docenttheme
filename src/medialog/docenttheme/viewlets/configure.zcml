@@ -8,7 +8,7 @@
 
   <browser:viewlet
      name="header-viewlet"
-     for="plone.app.contenttypes.interfaces.IDocument"
+     for="*"
      manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle"
      layer="medialog.docenttheme.interfaces.IMedialogDocentthemeLayer"
      class=".header_viewlet.HeaderViewlet"

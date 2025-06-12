@@ -1,4 +1,4 @@
-<header class="container d-flex pt-3 flex-column justify-content-between align-items-lg-start flex-lg-row"
+<header class="fullcontainer flex"
         id="content-header">
     <div id="burger-menu"
          class="navbar-menu">
@@ -13,9 +13,7 @@
             </path>
         </svg>
     </div>
-    <div class="mb-3 d-flex justify-content-end"
-         id="portal-top">
-    </div>
+
     <div class="pb-3 d-flex justify-content-between align-items-center order-lg-first w-auto"
          id="portal-logo-wrapper">
         <div id="header"
@@ -41,5 +39,5 @@
 </header>
 <style>
     #header strong, 
-    #content-core h2 strong, #content-core .h2 strong {border-color: ${view/color|None} !important;}
+    #content-core h2 strong, #content-core .h2 strong {font-size: 1.325rem; border-color: ${view/color|None} !important;}
 </style>
