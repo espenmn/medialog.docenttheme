@@ -1,34 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <object>
-     
- <order manager="plone.abovecontent" skinname="">
-  <viewlet name="medialog.dutchmantheme.aboveportlets"/>
-  <viewlet name="tool-bar-viewlet"/>
-  <viewlet name="plone.path_bar"/>
-  <viewlet name="header-viewlet"/>
-  <viewlet name="plone.lockinfo"/>
- </order> 
+
+  <order manager="plone.abovecontent" skinname="">
+    <viewlet name="tool-bar-viewlet"/>
+    <viewlet name="plone.path_bar"/>
+    <viewlet name="header-viewlet"/>
+    <viewlet name="plone.lockinfo"/>
+  </order>
+
+
+  <order manager="plone.abovecontent" skinname="Plone Default">
+    <viewlet name="tool-bar-viewlet"/>
+    <viewlet name="plone.path_bar"/>
+    <viewlet name="header-viewlet"/>
+    <viewlet name="plone.lockinfo"/>
+  </order>
 
   <hidden manager="plone.mainnavigation" skinname="Plone Default">
-  <viewlet name="plone.global_sections"/>
- </hidden>
-   <hidden manager="plone.mainnavigation" skinname="">
-  <viewlet name="plone.global_sections"/>
- </hidden>
+    <viewlet name="plone.global_sections"/>
+  </hidden>
+  <hidden manager="plone.mainnavigation" skinname="">
+    <viewlet name="plone.global_sections"/>
+  </hidden>
 
- <hidden manager="plone.portalheader" skinname="">
-  <viewlet name="medialog.dutchmantheme.menuviewlet"/>
-  <viewlet name="medialog.dutchtheme.languageselector"/>
- </hidden>
- <hidden manager="plone.portaltop" skinname="">
-  <viewlet name="medialog.dutchmantheme.aboveallportlets"/>
- </hidden>
- 
- <hidden manager="plone.portalheader" skinname="">
-  <viewlet name="plone.membertools"/>
-  <viewlet name="plone.logo"/>
-  <viewlet name="plone.searchbox"/>
-  <viewlet name="plone.app.i18n.locales.languageselector"/>
-  <viewlet name="medialog.dutchtheme.languageselector"/>
- </hidden>
+  <hidden manager="plone.portalheader" skinname="">
+    <viewlet name="medialog.dutchmantheme.menuviewlet"/>
+    <viewlet name="medialog.dutchtheme.languageselector"/>
+  </hidden>
+  <hidden manager="plone.portaltop" skinname="">
+    <viewlet name="medialog.dutchmantheme.aboveallportlets"/>
+  </hidden>
+
+  <hidden manager="plone.portalheader" skinname="">
+    <viewlet name="plone.membertools"/>
+    <viewlet name="plone.logo"/>
+    <viewlet name="plone.searchbox"/>
+    <viewlet name="plone.app.i18n.locales.languageselector"/>
+    <viewlet name="medialog.dutchtheme.languageselector"/>
+  </hidden>
 </object>
