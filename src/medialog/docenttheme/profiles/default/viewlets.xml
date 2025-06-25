@@ -8,7 +8,6 @@
     <viewlet name="plone.lockinfo"/>
   </order>
 
-
   <order manager="plone.abovecontent" skinname="Plone Default">
     <viewlet name="tool-bar-viewlet"/>
     <viewlet name="plone.path_bar"/>
@@ -33,7 +32,7 @@
 
   <hidden manager="plone.portalheader" skinname="">
     <viewlet name="plone.membertools"/>
-    <viewlet name="plone.logo"/>
+    <!-- <viewlet name="plone.logo"/> -->
     <viewlet name="plone.searchbox"/>
     <viewlet name="plone.app.i18n.locales.languageselector"/>
     <viewlet name="medialog.dutchtheme.languageselector"/>
