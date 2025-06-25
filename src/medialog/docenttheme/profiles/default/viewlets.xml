@@ -10,6 +10,7 @@
   </order>
 
   <order manager="plone.abovecontent" skinname="Plone Default">
+      <viewlet name="plone.logo"/>
     <viewlet name="tool-bar-viewlet"/>
     <viewlet name="plone.path_bar"/>
     <viewlet name="header-viewlet"/>
