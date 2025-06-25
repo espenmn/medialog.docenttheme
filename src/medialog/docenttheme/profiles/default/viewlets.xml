@@ -2,6 +2,7 @@
 <object>
 
   <order manager="plone.abovecontent" skinname="">
+    <viewlet name="plone.logo"/>
     <viewlet name="tool-bar-viewlet"/>
     <viewlet name="plone.path_bar"/>
     <viewlet name="header-viewlet"/>
