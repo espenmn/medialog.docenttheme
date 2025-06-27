@@ -63,7 +63,7 @@
 
   <!-- Content header -->
    <replace css:theme="#portal-logo" css:content="#portal-logo" mode="raw" />
-   <!-- <drop css:content="#portal-logo"  /> -->
+   <drop css:content="#portal-logo"  />
 
   <replace css:theme-children="#portal-top" css:content-children="#portal-header" />
 
