@@ -39,7 +39,7 @@
 </header>
 <style>
     #header strong, 
-    #content-core h2 strong, #content-core .h2 strong {font-size: 1.325rem; border-color: ${view/color|None} !important;}
+    #content-core h2 strong, #content-core .h2 strong {font-size: 1.7rem; border-color: ${view/color|None} !important;}
     #content-header > #portal-logo-wrapper {max-width: 1680px;  margin: auto }
     #content-header #portal-logo-wrapper img {max-width: 250px; margin: auto}
 </style>
